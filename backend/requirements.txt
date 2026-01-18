@@ -1,0 +1,28 @@
+# FastAPI et serveur
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Base de données
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+
+# Authentification
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Validation et sérialisation
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Upload de fichiers
+python-multipart>=0.0.6
+
+# email (pour notifications)
+aiofiles>=23.0.0
+
+# WebSocket
+websockets>=12.0
+
+# Firebase Admin SDK pour les notifications push
+firebase-admin>=6.0.0
+pyrebase4>=4.3.0
